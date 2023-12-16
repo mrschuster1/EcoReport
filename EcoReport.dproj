@@ -113,6 +113,10 @@
         </DCCReference>
         <DCCReference Include="src\Consts\Consts.UI.pas"/>
         <DCCReference Include="src\Helpers\Helpers.Ini.pas"/>
+        <DCCReference Include="src\View\Main\View.Main.pas">
+            <Form>formMain</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
